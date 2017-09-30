@@ -1,0 +1,37 @@
+.page-header {
+  min-height: 395px;
+  background-color: green;
+}
+
+.page-header__logo {
+  height: 85px;
+  background-color: red;
+}
+
+@media @tablet-widths {
+  .page-header {
+    position: relative;
+
+    min-height: 70px;
+    padding-bottom: 400px;
+  }
+
+  .page-header__logo {
+    height: 400px;
+
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media @desktop-widths {
+  .page-header {
+    padding-bottom: 648px;
+  }
+
+  .page-header__logo {
+    height: 648px;
+  }
+}
+
